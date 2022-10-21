@@ -1,0 +1,8 @@
+// Sass says to use '@use' instead of '@import':
+// https://sass-lang.com/documentation/at-rules/import
+
+// Documentation for @use:
+// https://sass-lang.com/documentation/at-rules/use
+
+@use 'partials/base';
+@use 'components/button';
