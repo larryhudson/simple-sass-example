@@ -2,7 +2,7 @@
 
 ## What this is
 
-This is a simple example for setting up Sass.
+This is a simple example for setting up Sass in a project.
 
 You could incorporate this into a WordPress theme, an Eleventy project, any place where you want to write [Sass](https://sass-lang.com/) and compile it to CSS.
 
@@ -14,11 +14,9 @@ To set up this example, I:
 - created some Sass files
 - added scripts to the package.json file for easily watching and compiling.
 
-
-
 To create an empty package.json, run `npm init --yes` in the terminal.
 
-After that, add sass by running `npm add sass`
+After that, add sass as a dependency to the project by running `npm add sass`.
 
 After that, you can run sass in the command line by running `npx sass [INPUT_PATH]:[OUTPUT_PATH]`. For example, `npx sass src/scss/style.scss:style.css`
 
